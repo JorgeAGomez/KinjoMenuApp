@@ -1,0 +1,96 @@
+﻿<Page x:Class="KinjoApp.Sashimi"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KinjoApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="550"
+      Title="Sashimi" Width="492.324">
+
+    <Grid Background="White">
+        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="45" Stroke="#FFF39E08" VerticalAlignment="Top" Width="500"/>
+        <Label x:Name="label" Content="Sashimi" HorizontalAlignment="Left" Margin="211,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.539,0.579" Width="53" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
+        <Rectangle Fill="#FF9E9C97" HorizontalAlignment="Left" Height="26" Margin="0,45,0,0" Stroke="#FF9E9C97" VerticalAlignment="Top" Width="500"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,0,0" Stroke="White" VerticalAlignment="Top" Width="480" RadiusX="5" RadiusY="5"/>
+        <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="222,45,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold"/>
+
+        <ListView Margin="0,71,0,0">
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image" Source="pack://siteoforigin:,,,/Resources/SalmonSashimi.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422" Text="Salmon Sashimi (3 pcs)"/>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Raw salmon, served individually on a bed of radish."/>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="5"/><Run Text="."/><Run Text="5"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" >
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image2" Source="pack://siteoforigin:,,,/Resources/TunaSashimi.jpg" Height="40" Width="40" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Tuna Sashimi (3 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Raw "/><Run Text="tuna"/><Run Text=", served individually on a bed of radish."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="5"/><Run Text="."/><Run Text="5"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image3" Source="pack://siteoforigin:,,,/Resources/ScallopSashimi.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422" Text="Scallop Sashimi (3 pcs)"/>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Raw "/><Run Text="scallop"/><Run Text=", served individually on a bed of radish."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="5"/><Run Text="."/><Run Text="5"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image4" Source="pack://siteoforigin:,,,/Resources/OctopusSashimi.jpg" Height="40" Width="40" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Octopus Sashimi (3 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Lightly pouched "/><Run Text="octopus"/><Run Text=", served individually on a bed of radish."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="5"/><Run Text="."/><Run Text="5"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image5" Source="pack://siteoforigin:,,,/Resources/UnagiSashimi.jpg" Height="40" Width="40" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Unagi Sashimi (3 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Cooked barbecue eel, served individually on a bed of radish."/>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="5"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image6" Source="pack://siteoforigin:,,,/Resources/HamachiSashimi.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Hamachi Sashimi (3 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Raw "/><Run Text="yellowtail"/><Run Text=", served individually on a bed of radish."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="6"/><Run Text="."/><Run Text="8"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+
+        </ListView>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="27,13,0,0" VerticalAlignment="Top" Width="42" Background="#FFF39E08" BorderBrush="White" Foreground="White" Click="goToMenu"/>
+
+    </Grid>
+</Page>

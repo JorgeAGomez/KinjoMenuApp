@@ -1,0 +1,97 @@
+﻿<Page x:Class="KinjoApp.Appetizer"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KinjoApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="550"
+      Title="Appetizer" Width="492.324">
+
+    <Grid>
+        <Frame x:Name="Main" Margin="0,0,0,0" Content="" NavigationUIVisibility="Hidden" Background="White"/>
+        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="45" Stroke="#FFF39E08" VerticalAlignment="Top" Width="500"/>
+        <Label x:Name="label" Content="Appetizer" HorizontalAlignment="Left" Margin="210,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.539,0.579" Width="73" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
+        <Rectangle Fill="#FF9E9C97" HorizontalAlignment="Left" Height="26" Margin="0,45,0,0" Stroke="#FF9E9C97" VerticalAlignment="Top" Width="500"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,0,0" Stroke="White" VerticalAlignment="Top" Width="480" RadiusX="5" RadiusY="5"/>
+        <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="222,45,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold"/>
+
+        <ListView Margin="0,71,0,0">
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <Button x:Name="button1">
+                    <StackPanel Orientation="Horizontal" Width="479">
+                        <Image x:Name="image" Source="pack://siteoforigin:,,,/Resources/AlbertaSoyCone.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                        <StackPanel Orientation="Vertical" Width="406">
+                            <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Alberta Soy "/><Run Text="Cone (1 pc)"/></TextBlock>
+                            <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Sushi cone filled with soft sushi rice, teriyaki beef, and pickled radish"/><Run Text="."/></TextBlock>
+                        </StackPanel>
+
+                        <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20" Text="$3.80"/>
+
+                    </StackPanel>
+                </Button>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image2" Source="pack://siteoforigin:,,,/Resources/LobsterSoyCone.jpg" Height="40" Width="40" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Lobster Soy Cone"/><Run Text=" (1 pc)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Sushi cone filled with "/><Run Text="soft sushi rice, tempura lobster, and tobiko."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20" Text="$3.80"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" >
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image3" Source="pack://siteoforigin:,,,/Resources/SpicyDynamiteCone.JPG" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422" Text="Spicy Dynamite Cone (1 pc)"/>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Sushi cone filled with "/><Run Text="soft sushi rice, "/><Run Text="tempura shrimp, and tobiko."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20" Text="$3.80"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image4" Source="pack://siteoforigin:,,,/Resources/MasagoCone.jpg" Height="40" Width="40" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Masago California Cone (1 pc)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Sushi cone filled with "/><Run Text="soft sushi rice, "/><Run Text="tender crab meat, mayo and masago."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20" Text="$3.80"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image5" Source="pack://siteoforigin:,,,/Resources/edamame5.jpg" Height="40" Width="40" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Edamame"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Soft soybeans served in the pod, which are steamed and lightly tossed in sea salt"/>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="5"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image6" Source="pack://siteoforigin:,,,/Resources/SalmonCone.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Spicy Salmon"/><Run Text=" Cone"/><Run Text=" (1 pc)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Sushi cone filled with "/><Run Text="soft sushi rice, "/><Run Text="raw salmon, cucumber and spicy mayo."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="6"/><Run Text="."/><Run Text="5"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+        </ListView>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="24,13,0,0" VerticalAlignment="Top" Width="47" Background="#FFF39E08" BorderBrush="White" Foreground="White" Click="backToMenu"/>
+    </Grid>
+</Page>

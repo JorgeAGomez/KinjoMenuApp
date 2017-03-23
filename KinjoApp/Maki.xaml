@@ -1,0 +1,97 @@
+﻿<Page x:Class="KinjoApp.Maki"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KinjoApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="550"
+      Title="Maki" Width="492.324">
+
+    <Grid>
+        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="45" Stroke="#FFF39E08" VerticalAlignment="Top" Width="500"/>
+        <Label x:Name="label" Content="Maki" HorizontalAlignment="Left" Margin="222,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.539,0.579" Width="41" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
+        <Rectangle Fill="#FF9E9C97" HorizontalAlignment="Left" Height="26" Margin="0,45,0,0" Stroke="#FF9E9C97" VerticalAlignment="Top" Width="500"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,0,0" Stroke="White" VerticalAlignment="Top" Width="480" RadiusX="5" RadiusY="5"/>
+        <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="222,45,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold"/>
+
+        <ListView Margin="0,71,0,0">
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" >
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image" Source="pack://siteoforigin:,,,/Resources/DynamiteRoll.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422" Text="Dynamite Roll (4 pcs)"/>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="S"/><Run Text="hrimp tempura, masago, cucumber, avocado, and may"/><Run Text="o."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20" Text="$3.80"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" >
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image2" Source="pack://siteoforigin:,,,/Resources/VolcanoRoll.jpg" Height="40" Width="40" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422" Text="Volcano Roll (4 pcs) "/>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="C"/><Run Text="alamari tempura, raw tuna, and lettuce topped with sesame seeds and spicy mayo."/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20" Text="$3.80"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image3" Source="pack://siteoforigin:,,,/Resources/AvocadoRoll.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422" Text="Avocado Roll (6 pcs)"/>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Sushi rice, avocado, and sesame seeds wrapped in nori."/>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20" Text="$3.80"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image4" Source="pack://siteoforigin:,,,/Resources/CucumberRoll.jpg" Height="40" Width="40" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422" Text="Cucumber Roll (6 pcs)"/>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Sushi rice, cucumber, and sesame seeds wrapped in nori."/>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20" Text="$3.80"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image5" Source="pack://siteoforigin:,,,/Resources/YamRoll.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422" Text="Yam Roll (4 pcs)"/>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Y"/><Run Text="am tempura, avocado, and mayo topped with sesame seed"/><Run Text="s"/></TextBlock>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="5"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" >
+                <StackPanel Orientation="Horizontal" Width="479">
+                    <Image x:Name="image6" Source="pack://siteoforigin:,,,/Resources/SalmonRoll.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="406">
+                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Salmon Roll (6 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Sushi rice and raw salmon wrapped in nori."/>
+                    </StackPanel>
+
+                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="6"/><Run Text="."/><Run Text="5"/><Run Text="0"/></TextBlock>
+
+                </StackPanel>
+            </ListViewItem>
+
+
+
+        </ListView>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="25,13,0,0" VerticalAlignment="Top" Width="46" Background="#FFF39E08" BorderBrush="White" Foreground="White" Click="goToMenu"/>
+    </Grid>
+</Page>
