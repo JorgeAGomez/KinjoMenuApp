@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace KinjoApp
 {
     /// <summary>
-    /// Interaction logic for AddNewItem.xaml
+    /// Interaction logic for Tempura.xaml
     /// </summary>
-    public partial class AddNewItem : UserControl
+    public partial class Tempura : Page
     {
-        public AddNewItem()
+        public Tempura()
         {
             InitializeComponent();
+        }
+
+        private void goToMenu(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new MainMenu());
         }
     }
 }

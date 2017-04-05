@@ -23,11 +23,26 @@ namespace KinjoApp
         public Appetizer()
         {
             InitializeComponent();
+            //FoodItem.foodItems = new List<string[]>();
         }
 
         private void backToMenu(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new MainMenu());
+        }
+
+
+
+        private void itemSelected(object sender, MouseButtonEventArgs e)
+        {
+            var item = sender as ListView;
+            if (item != null)
+            {
+                //string[] list3 = new string[4] { "pack://siteoforigin:,,,/Resources/Edamame.jpg", "Edamame", "Soft soybeans served in the pod, which are steamed and lightly tossed in sea salt.", "$5.10" };
+                
+                //FoodItem.foodItems.Add(list3);
+
+            }
         }
     }
 }

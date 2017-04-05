@@ -5,87 +5,85 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:KinjoApp"
       mc:Ignorable="d" 
-      d:DesignHeight="550"
-      Title="Sushi" Width="492.324">
+      Title="Sushi" Width="707.324" Height="668">
 
-    <Grid Background="White">
+    <Grid Margin="0,0,0,0" Height="668" VerticalAlignment="Top" Background="White">
         <Frame x:Name="Main" Margin="0,0,0,0" Content="" NavigationUIVisibility="Hidden" Background="White"/>
-        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="45" Stroke="#FFF39E08" VerticalAlignment="Top" Width="500"/>
-        <Label x:Name="label" Content="Sushi" HorizontalAlignment="Left" Margin="232,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.487,0.566" Width="43" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
-        <Rectangle Fill="#FF9E9C97" HorizontalAlignment="Left" Height="26" Margin="0,45,0,0" Stroke="#FF9E9C97" VerticalAlignment="Top" Width="500"/>
-        <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,0,0" Stroke="White" VerticalAlignment="Top" Width="480" RadiusX="5" RadiusY="5"/>
-        <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="222,45,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold"/>
+        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="45" Stroke="#FFF39E08" VerticalAlignment="Top" Width="707"/>
+        <Label x:Name="label" Content="Sushi" HorizontalAlignment="Left" Margin="323,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.487,0.566" Width="71" FontFamily="Yu Gothic UI" FontWeight="Bold" FontSize="20" Foreground="White"/>
+        <Rectangle Fill="#FF9E9C97" HorizontalAlignment="Left" Height="26" Margin="0,45,0,0" Stroke="#FF9E9C97" VerticalAlignment="Top" Width="707"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,0,0" Stroke="White" VerticalAlignment="Top" Width="687" RadiusX="5" RadiusY="5"/>
+        <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="336,45,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold"/>
 
         <ListView Margin="0,71,0,0">
-            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
-                <StackPanel Orientation="Horizontal" Width="479">
-                    <Image x:Name="image" Source="pack://siteoforigin:,,,/Resources/SalmonSushi.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
-                    <StackPanel Orientation="Vertical" Width="406">
-                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Salmon Sushi (2 pc"/><Run Text="s"/><Run Text=")"/></TextBlock>
-                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Raw salmon thinly sliced and served individually on top of a bed of sushi rice."/>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="692" Height="62">
+                    <Image x:Name="image" Source="pack://siteoforigin:,,,/Resources/SalmonSushi.jpg"  Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="583">
+                        <TextBlock Height="29" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold"><Run Text="Salmon Sushi (2 pc"/><Run Text="s"/><Run Text=")"/></TextBlock>
+                        <TextBlock Height="26" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="556" Foreground="#FF878787" Text="Raw salmon thinly sliced and served individually on top of a bed of sushi rice."/>
                     </StackPanel>
-
-                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$3."/><Run Text="6"/><Run Text="0"/></TextBlock>
+                    <TextBlock FontFamily="Yu Gothic UI" FontSize="16" Width="40" Margin="0,14,0,27" FontWeight="Bold"><Run Text="$3."/><Run Text="6"/><Run Text="0"/></TextBlock>
 
                 </StackPanel>
             </ListViewItem>
-            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
-                <StackPanel Orientation="Horizontal" Width="479">
-                    <Image x:Name="image2" Source="pack://siteoforigin:,,,/Resources/TunaSushi.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
-                    <StackPanel Orientation="Vertical" Width="406">
-                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Tuna Sushi (2 pcs)"/><LineBreak/><Run/></TextBlock>
-                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Raw tuna thinly sliced and served individually on top of a bed of sushi rice."/>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="693">
+                    <Image x:Name="image2" Source="pack://siteoforigin:,,,/Resources/TunaSushi.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="579">
+                        <TextBlock Height="23" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold"><Run Text="Tuna Sushi (2 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="554" Foreground="#FF878787" Text="Raw tuna thinly sliced and served individually on top of a bed of sushi rice."/>
                     </StackPanel>
 
-                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$3."/><Run Text="6"/><Run Text="0"/></TextBlock>
+                    <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="16" Width="42" Margin="0,0,0,20" FontWeight="Bold"><Run Text="$3."/><Run Text="6"/><Run Text="0"/></TextBlock>
 
                 </StackPanel>
             </ListViewItem>
-            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
-                <StackPanel Orientation="Horizontal" Width="479">
-                    <Image x:Name="image3" Source="pack://siteoforigin:,,,/Resources/SearedSalmonSushi.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
-                    <StackPanel Orientation="Vertical" Width="406">
-                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422" Text="Seared Salmon Sushi (2 pcs)"/>
-                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Lightly seared salmon, sushi rice, and spicy mayo topped with green onions."/>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="688">
+                    <Image x:Name="image3" Source="pack://siteoforigin:,,,/Resources/SearedSalmonSushi.jpg"  Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="580">
+                        <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Seared Salmon Sushi (2 pcs)" FontWeight="Bold"/>
+                        <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="554" Foreground="#FF878787" Text="Lightly seared salmon, sushi rice, and spicy mayo topped with green onions."/>
                     </StackPanel>
 
-                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
+                    <TextBlock Height="20" FontFamily="Yu Gothic UI" FontSize="16" Width="44" Margin="0,0,0,20" FontWeight="Bold"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
 
                 </StackPanel>
             </ListViewItem>
-            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
-                <StackPanel Orientation="Horizontal" Width="479">
-                    <Image x:Name="image4" Source="pack://siteoforigin:,,,/Resources/SearedTunaSushi.jpg" Height="40" Width="40" SnapsToDevicePixels="True" Stretch="Fill"/>
-                    <StackPanel Orientation="Vertical" Width="406">
-                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Seared Tuna Sushi (2 pcs)"/><LineBreak/><Run/></TextBlock>
-                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Lightly seared "/><Run Text="tuna"/><Run Text=", sushi rice, and spicy mayo topped with green onions."/></TextBlock>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="691">
+                    <Image x:Name="image4" Source="pack://siteoforigin:,,,/Resources/SearedTunaSushi.jpg"  Height="58" Width="65" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="581">
+                        <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold"><Run Text="Seared Tuna Sushi (2 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="25" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="562" Foreground="#FF878787"><Run Text="Lightly seared "/><Run Text="tuna"/><Run Text=", sushi rice, and spicy mayo topped with green onions."/></TextBlock>
                     </StackPanel>
 
-                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
+                    <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="16" Width="39" Margin="0,0,0,20" FontWeight="Bold"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
 
                 </StackPanel>
             </ListViewItem>
-            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" >
-                <StackPanel Orientation="Horizontal" Width="479">
-                    <Image x:Name="image5" Source="pack://siteoforigin:,,,/Resources/ShrimpSushi.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
-                    <StackPanel Orientation="Vertical" Width="406">
-                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Shrimp Sushi (2 pcs)"/><LineBreak/><Run/></TextBlock>
-                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Cooked shrimp served individually on top of a bed of sushi rice."/>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="690">
+                    <Image x:Name="image5" Source="pack://siteoforigin:,,,/Resources/ShrimpSushi.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="582">
+                        <TextBlock Height="23" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold"><Run Text="Shrimp Sushi (2 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="557" Foreground="#FF878787" Text="Cooked shrimp served individually on top of a bed of sushi rice."/>
                     </StackPanel>
 
-                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
+                    <TextBlock Height="20" FontFamily="Yu Gothic UI" FontSize="16" Width="39" Margin="0,0,0,20" FontWeight="Bold"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
 
                 </StackPanel>
             </ListViewItem>
-            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292">
-                <StackPanel Orientation="Horizontal" Width="479">
-                    <Image x:Name="image6" Source="pack://siteoforigin:,,,/Resources/ScallopSushi.jpg" Height="40" Width="40" SnapsToDevicePixels="True"/>
-                    <StackPanel Orientation="Vertical" Width="406">
-                        <TextBlock Height="15" FontFamily="Yu Gothic UI" FontSize="10" Width="386" Margin="0,0,10,5" HorizontalAlignment="Right" RenderTransformOrigin="0.497,0.422"><Run Text="Scallop Sushi "/><Run Text="(2 pcs)"/><LineBreak/><Run/></TextBlock>
-                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="10" Margin="10,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Raw Scallops served individually on top of a bed of sushi rice."/>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="691">
+                    <Image x:Name="image6" Source="pack://siteoforigin:,,,/Resources/ScallopSushi.jpg"  Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="585">
+                        <TextBlock Height="28" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold"><Run Text="Scallop Sushi "/><Run Text="(2 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="453" Foreground="#FF878787" Text="Raw Scallops served individually on top of a bed of sushi rice."/>
                     </StackPanel>
 
-                    <TextBlock Height="14" FontFamily="Yu Gothic UI" FontSize="10" Width="25" Margin="10,0,0,20"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
+                    <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="16" Width="42" Margin="0,0,0,20" FontWeight="Bold"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="1"/><Run Text="0"/></TextBlock>
 
                 </StackPanel>
             </ListViewItem>
@@ -93,6 +91,6 @@
 
 
         </ListView>
-        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="25,13,0,0" VerticalAlignment="Top" Width="43" Click="goToMenu"/>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="25,13,0,0" VerticalAlignment="Top" Width="43" Click="goToMenu" Background="{x:Null}" Foreground="White" BorderBrush="White" BorderThickness="2" FontWeight="Bold"/>
     </Grid>
 </Page>

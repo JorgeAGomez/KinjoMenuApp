@@ -1,0 +1,79 @@
+﻿<Page x:Class="KinjoApp.PartyPlatters"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KinjoApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="500"
+      Title="Appetizer" Width="707.324" Height="668">
+
+    <Grid Margin="0,0,0,0" Height="668" VerticalAlignment="Top" Background="White">
+        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="45" Stroke="#FFF39E08" VerticalAlignment="Top" Width="707"/>
+        <Label x:Name="label" Content="Party Platter" HorizontalAlignment="Left" Margin="292,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="132" FontFamily="Yu Gothic UI" FontWeight="Bold" Foreground="White" FontSize="20"/>
+        <Rectangle Fill="#FF9E9C97" HorizontalAlignment="Left" Height="26" Margin="0,45,0,0" Stroke="#FF9E9C97" VerticalAlignment="Top" Width="705"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,0,0" Stroke="White" VerticalAlignment="Top" Width="687" RadiusX="5" RadiusY="5"/>
+        <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="323,45,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold" RenderTransformOrigin="0.476,0.52"/>
+        <ListView Margin="0,71,2,5">
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="685">
+                    <Image x:Name="image" Source="pack://siteoforigin:,,,/Resources/SushiPlatter.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="567">
+                        <TextBlock Height="26" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Sushi Platter" FontWeight="Bold"/>
+                        <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="552" Foreground="#FF878787" Text="10 tuna sashimi, 5 salmon sushi, 5 shrimp sushi, 5 red snapper sushi, 10 California roll"/>
+                    </StackPanel>
+                    <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="16" Width="55" Margin="3,0,0,20" Text="$30.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="688">
+                    <Image x:Name="image2" Source="pack://siteoforigin:,,,/Resources/SushiAndSashimiPlatter.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="568">
+                        <TextBlock Height="23" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Sushi and Sashimi Platter" FontWeight="Bold"/>
+                        <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="561" Foreground="#FF878787" Text="10 California roll, 8 octopus pieces, 8 Dynamite roll, 10 Sashimi, 5 Mango sushi."/>
+                    </StackPanel>
+
+                    <TextBlock Height="26" FontFamily="Yu Gothic UI" FontSize="16" Width="48" Margin="5,0,0,20" Text="$46.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="690">
+                    <Image x:Name="image3" Source="pack://siteoforigin:,,,/Resources/GianPlatter.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="569">
+                        <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Giant Platter" FontWeight="Bold"/>
+                        <TextBlock Height="21" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="544" Foreground="#FF878787" Text="Everything on Sushi platter,  8 volcano roll, 8 Unagi sushi, 5 Scallop sashimi."/>
+                    </StackPanel>
+
+                    <TextBlock Height="23" FontFamily="Yu Gothic UI" FontSize="16" Width="49" Margin="7,0,0,20" Text="$75.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72" >
+                <StackPanel Orientation="Horizontal" Width="689">
+                    <Image x:Name="image4" Source="pack://siteoforigin:,,,/Resources/HotPlatter.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="566">
+                        <TextBlock Height="25" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Hot Platter" FontWeight="Bold"/>
+                        <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="541" Foreground="#FF878787" Text="Everything on Sushi platter, edamame, 4 assorted vegetables, 5 assorted seafood."/>
+                    </StackPanel>
+
+                    <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="16" Width="48" Margin="7,0,0,20" Text="$75.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+                <StackPanel Orientation="Horizontal" Width="688">
+                    <Image x:Name="image5" Source="pack://siteoforigin:,,,/Resources/SushiAndHotFoodPlatter.jpg" Height="58" Width="65" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="564">
+                        <TextBlock Height="23" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Sushi and Hot Food Platter" FontWeight="Bold"/>
+                        <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="1 Giant Platter, 1 Hot Platter, and 1 Sushi Platter."/>
+                    </StackPanel>
+                    <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="16" Width="55" Margin="2,0,0,20" Text="$143.00" FontWeight="Bold"/>
+                </StackPanel>
+            </ListViewItem>
+
+        </ListView>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="33,16,0,0" VerticalAlignment="Top" Width="48" Background="#FFF39E08" Foreground="White" BorderBrush="White" Click="goToMenu" FontWeight="Bold" BorderThickness="2"/>
+    </Grid>
+</Page>

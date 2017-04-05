@@ -1,0 +1,68 @@
+﻿<Page x:Class="KinjoApp.ShoppingCart"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KinjoApp"
+      mc:Ignorable="d" 
+      Title="Appetizer" Width="707.324" Height="668">
+
+    <Grid Margin="0,0,0,0" Height="668" VerticalAlignment="Top" Background="White">
+
+        <Frame x:Name="Main" Margin="0,0,0,0" Content="" NavigationUIVisibility="Hidden" Background="White"/>
+        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="50" Stroke="#FFF39E08" VerticalAlignment="Top" Width="707"/>
+        <Label x:Name="label" Content="Shopping Cart" HorizontalAlignment="Left" Margin="275,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.539,0.579" Width="161" FontFamily="Yu Gothic UI" FontWeight="Bold" FontSize="20" Foreground="White"/>
+
+
+        <ListView x:Name="listView" Margin="0,50,0,0">
+             
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+
+                <StackPanel Orientation="Horizontal" Width="695">
+                    <Image x:Name="image4" Height="58" Width="65" SnapsToDevicePixels="True" Source="pack://siteoforigin:,,,/Resources/BroccoliTempura.jpg" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="513">
+                        <TextBlock Height="22" FontFamily="Yu Gothic UI" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold" FontSize="16" Text="Broccoli Tempura (4 pcs)"/>
+                        <TextBlock Height="26" FontFamily="Yu Gothic UI" Margin="5,0,0,5" HorizontalAlignment="Left" Width="508" Foreground="#FF878787" FontSize="14" Text="Battered broccoli, deep friend to a crispy texture, and served with tempura sauce."/>
+                    </StackPanel>
+                    <TextBlock Height="17" FontFamily="Yu Gothic UI" FontSize="16" Width="40" Margin="20,0,0,10" FontWeight="Bold"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="2"/><Run Text="0"/></TextBlock>
+                    <Button x:Name="button4" Width="38" Height="34"  Margin="10
+                            ,0,0,0
+                            " Click="button2_Click" Background="{x:Null}" BorderBrush="#FFF39E08">
+                        <Image x:Name="image5" Height="24" Width="28" Source="pack://siteoforigin:,,,/Resources/Delete.png"/>
+                    </Button>
+
+                </StackPanel>
+
+            </ListViewItem>
+
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72">
+
+                <StackPanel Orientation="Horizontal" Width="695">
+                    <Image x:Name="image6" Height="58" Width="65" SnapsToDevicePixels="True" Source="pack://siteoforigin:,,,/Resources/GreenTea.jpg" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="513">
+                        <TextBlock Height="22" FontFamily="Yu Gothic UI" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold" FontSize="16"><Run Text="Green Te"/><Run Text="a"/><Run Text=" (700 ml)"/></TextBlock>
+                        <TextBlock Height="26" FontFamily="Yu Gothic UI" Margin="5,0,0,5" HorizontalAlignment="Left" Width="508" Foreground="#FF878787" FontSize="14"><Run Text="Hot green te"/><Run Text="a"/><Run Text=". "/></TextBlock>
+                    </StackPanel>
+                    <TextBlock Height="17" FontFamily="Yu Gothic UI" FontSize="16" Width="40" Margin="20,0,0,10" FontWeight="Bold"><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="00"/></TextBlock>
+                    <Button x:Name="button5" Width="38" Height="34"  Margin="10
+                            ,0,0,0
+                            " Click="button2_Click" Background="{x:Null}" BorderBrush="#FFF39E08">
+                        <Image x:Name="image7" Height="24" Width="28" Source="pack://siteoforigin:,,,/Resources/Delete.png"/>
+                    </Button>
+
+                </StackPanel>
+
+            </ListViewItem>
+            
+            
+
+
+
+
+        </ListView>
+
+        <Button x:Name="button" Content="Menu" HorizontalAlignment="Left" Margin="24,13,0,0" VerticalAlignment="Top" Width="62" Background="#FFF39E08" BorderBrush="White" Foreground="White" Click="backToMenu" FontSize="16" BorderThickness="2" FontWeight="Bold"/>
+        <Button x:Name="button1" Content="Place Order" HorizontalAlignment="Left" Margin="605,13,0,0" VerticalAlignment="Top" Width="75" Height="27" BorderBrush="White" Background="{x:Null}" Foreground="White" BorderThickness="2" FontWeight="Bold"/>
+
+    </Grid>
+</Page>

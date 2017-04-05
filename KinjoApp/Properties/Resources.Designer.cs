@@ -73,9 +73,69 @@ namespace KinjoApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AsparagusTempura {
+            get {
+                object obj = ResourceManager.GetObject("AsparagusTempura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AsparagusTempura1 {
+            get {
+                object obj = ResourceManager.GetObject("AsparagusTempura1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AssortedVegetableTempura {
+            get {
+                object obj = ResourceManager.GetObject("AssortedVegetableTempura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AvocadoRoll {
             get {
                 object obj = ResourceManager.GetObject("AvocadoRoll", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AvocadoTempura {
+            get {
+                object obj = ResourceManager.GetObject("AvocadoTempura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BottleWater {
+            get {
+                object obj = ResourceManager.GetObject("BottleWater", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BroccoliTempura {
+            get {
+                object obj = ResourceManager.GetObject("BroccoliTempura", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +153,29 @@ namespace KinjoApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CannedSoftDrinks {
+            get {
+                object obj = ResourceManager.GetObject("CannedSoftDrinks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Check {
             get {
                 object obj = ResourceManager.GetObject("Check", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChickenYakitori {
+            get {
+                object obj = ResourceManager.GetObject("ChickenYakitori", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +213,39 @@ namespace KinjoApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edamame5 {
+        internal static System.Drawing.Bitmap Edamame {
             get {
-                object obj = ResourceManager.GetObject("edamame5", resourceCulture);
+                object obj = ResourceManager.GetObject("Edamame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GianPlatter {
+            get {
+                object obj = ResourceManager.GetObject("GianPlatter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GreenTea {
+            get {
+                object obj = ResourceManager.GetObject("GreenTea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GyozaSauce {
+            get {
+                object obj = ResourceManager.GetObject("GyozaSauce", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +266,16 @@ namespace KinjoApp.Properties {
         internal static System.Drawing.Bitmap HappyFace {
             get {
                 object obj = ResourceManager.GetObject("HappyFace", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HotPlatter {
+            get {
+                object obj = ResourceManager.GetObject("HotPlatter", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +306,16 @@ namespace KinjoApp.Properties {
         internal static System.Drawing.Bitmap LobsterSoyCone {
             get {
                 object obj = ResourceManager.GetObject("LobsterSoyCone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MagicSteak {
+            get {
+                object obj = ResourceManager.GetObject("MagicSteak", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,6 +433,26 @@ namespace KinjoApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Sapporo {
+            get {
+                object obj = ResourceManager.GetObject("Sapporo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SauteedLongBean {
+            get {
+                object obj = ResourceManager.GetObject("SauteedLongBean", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ScallopSashimi {
             get {
                 object obj = ResourceManager.GetObject("ScallopSashimi", resourceCulture);
@@ -353,6 +503,26 @@ namespace KinjoApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ShrimpTempura {
+            get {
+                object obj = ResourceManager.GetObject("ShrimpTempura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SpicyChicken {
+            get {
+                object obj = ResourceManager.GetObject("SpicyChicken", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SpicyCrunchRoll {
             get {
                 object obj = ResourceManager.GetObject("SpicyCrunchRoll", resourceCulture);
@@ -376,6 +546,86 @@ namespace KinjoApp.Properties {
         internal static System.Drawing.Bitmap SpiderRoll {
             get {
                 object obj = ResourceManager.GetObject("SpiderRoll", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SteakSauce {
+            get {
+                object obj = ResourceManager.GetObject("SteakSauce", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SushiAndHotFoodPlatter {
+            get {
+                object obj = ResourceManager.GetObject("SushiAndHotFoodPlatter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SushiAndSashimiPlatter {
+            get {
+                object obj = ResourceManager.GetObject("SushiAndSashimiPlatter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SushiPlatter {
+            get {
+                object obj = ResourceManager.GetObject("SushiPlatter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TempuraSauce {
+            get {
+                object obj = ResourceManager.GetObject("TempuraSauce", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TeriyakiBeef {
+            get {
+                object obj = ResourceManager.GetObject("TeriyakiBeef", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TeriyakiChicken {
+            get {
+                object obj = ResourceManager.GetObject("TeriyakiChicken", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TeriyakiSauce {
+            get {
+                object obj = ResourceManager.GetObject("TeriyakiSauce", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,6 +663,16 @@ namespace KinjoApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap UnagiSauce {
+            get {
+                object obj = ResourceManager.GetObject("UnagiSauce", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap VolcanoRoll {
             get {
                 object obj = ResourceManager.GetObject("VolcanoRoll", resourceCulture);
@@ -423,9 +683,29 @@ namespace KinjoApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap VolcanoSauce {
+            get {
+                object obj = ResourceManager.GetObject("VolcanoSauce", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap YamRoll {
             get {
                 object obj = ResourceManager.GetObject("YamRoll", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap YamTempura {
+            get {
+                object obj = ResourceManager.GetObject("YamTempura", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

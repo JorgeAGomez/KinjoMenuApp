@@ -23,6 +23,7 @@ namespace KinjoApp
         public MainMenu()
         {
             InitializeComponent();
+            
         }
 
         private void goToAppetizer(object sender, RoutedEventArgs e)
@@ -43,6 +44,43 @@ namespace KinjoApp
         private void goToMaki(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new Maki());
+        }
+
+        private void goToSpecialMaki(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new SpecialMaki());
+        }
+
+        private void goToTempura(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Tempura()); 
+        }
+
+        private void goToYakiniku(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Yakiniku());
+        }
+
+        private void goToPartyPlatter(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new PartyPlatters());
+        }
+
+        private void goToSauces(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new SideSauces());
+        }
+
+        private void goToDrinks(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Drinks());
+        }
+
+        private void goToCart(object sender, RoutedEventArgs e)
+        {
+            //Cart window1 = new KinjoApp.Cart();
+            // window1.ShowDialog();
+            this.NavigationService.Navigate(new ShoppingCart());
         }
     }
 }

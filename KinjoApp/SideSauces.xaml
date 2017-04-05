@@ -1,0 +1,93 @@
+﻿<Page x:Class="KinjoApp.SideSauces"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KinjoApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="500"
+      Title="Appetizer" Width="707.324" Height="668">
+
+    <Grid Margin="0,0,0,0" Height="668" VerticalAlignment="Top" Background="White">
+        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="45" Stroke="#FFF39E08" VerticalAlignment="Top" Width="707"/>
+        <Label x:Name="label" Content="Side Sauces" HorizontalAlignment="Left" Margin="303,5,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="115" FontFamily="Yu Gothic UI" Foreground="White" FontSize="20" FontWeight="Bold"/>
+        <Rectangle Fill="#FF9E9C97" HorizontalAlignment="Left" Height="26" Margin="0,45,0,0" Stroke="#FF9E9C97" VerticalAlignment="Top" Width="707"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,0,0" Stroke="White" VerticalAlignment="Top" Width="687" RadiusX="5" RadiusY="5"/>
+        <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="331,45,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold"/>
+        <ListView Margin="0,71,2,5">
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292"  Height="72">
+                <StackPanel Orientation="Horizontal" Width="691">
+                    <Image x:Name="image" Source="pack://siteoforigin:,,,/Resources/VolcanoSauce.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="579">
+                        <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Volcano Sauce" FontWeight="Bold"/>
+                        <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Mayo and spicy Sriracha sauce."/>
+                    </StackPanel>
+                    <TextBlock Height="23" FontFamily="Yu Gothic UI" FontSize="16" Width="40" Margin="7,0,0,20" Text="$0.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292"  Height="72">
+                <StackPanel Orientation="Horizontal" Width="690">
+                    <Image x:Name="image2" Source="pack://siteoforigin:,,,/Resources/SteakSauce.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="578">
+                        <TextBlock Height="25" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold"><Run Text="Steak Sauce"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="16" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Sesame-based Japanese steak sauce."/>
+                    </StackPanel>
+
+                    <TextBlock Height="21" FontFamily="Yu Gothic UI" FontSize="16" Width="52" Margin="5,0,0,20" Text="$0.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292"  Height="72">
+                <StackPanel Orientation="Horizontal" Width="686">
+                    <Image x:Name="image3" Source="pack://siteoforigin:,,,/Resources/TempuraSauce.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="572">
+                        <TextBlock Height="27" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Tempura Sauce" FontWeight="Bold"/>
+                        <TextBlock Height="23" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Soy sauce and ginger."/>
+                    </StackPanel>
+
+                    <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="16" Width="64" Margin="7,0,0,20" Text="$0.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292"   Height="72">
+                <StackPanel Orientation="Horizontal" Width="690">
+                    <Image x:Name="image4" Source="pack://siteoforigin:,,,/Resources/UnagiSauce.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="573">
+                        <TextBlock Height="23" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Unagi Sauce" FontWeight="Bold"/>
+                        <TextBlock Height="29" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Dark and sweet soy sauce, almost like a glaze"/>
+                    </StackPanel>
+
+                    <TextBlock Height="26" FontFamily="Yu Gothic UI" FontSize="16" Width="41" Margin="10,0,0,20" Text="$0.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292"  Height="72">
+                <StackPanel Orientation="Horizontal" Width="689">
+                    <Image x:Name="image5" Source="pack://siteoforigin:,,,/Resources/TeriyakiSauce.jpg" Height="58" Width="65" SnapsToDevicePixels="True" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" Width="570">
+                        <TextBlock Height="25" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Teriyaki Sauce" FontWeight="Bold"/>
+                        <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Teriyaki sauce consist of chicken broth made in-house, sake, sugar, and soy sauce."/>
+                    </StackPanel>
+
+                    <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="16" Width="51" Margin="10,0,0,20" Text="$0.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292"  Height="72">
+                <StackPanel Orientation="Horizontal" Width="691">
+                    <Image x:Name="image6" Source="pack://siteoforigin:,,,/Resources/GyozaSauce.jpg" Height="58" Width="65" SnapsToDevicePixels="True"/>
+                    <StackPanel Orientation="Vertical" Width="569">
+                        <TextBlock Height="19" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold"><Run Text="Gyoza Sauce"/><LineBreak/><Run/></TextBlock>
+                        <TextBlock Height="26" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Gyoza sauce consists of soy sauce, rice vinegar, and a few drops of chilli oil."/>
+                    </StackPanel>
+
+                    <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="16" Width="48" Margin="10,0,0,20" Text="$0.50" FontWeight="Bold"/>
+
+                </StackPanel>
+            </ListViewItem>
+
+        </ListView>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="33,16,0,0" VerticalAlignment="Top" Width="48" Background="#FFF39E08" Foreground="White" BorderBrush="White" Click="goToMenu" FontWeight="Bold" BorderThickness="2"/>
+    </Grid>
+</Page>

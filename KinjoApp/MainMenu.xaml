@@ -4,28 +4,47 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:KinjoApp"
-      mc:Ignorable="d" 
-      d:DesignHeight="500"
-      Title="MainMenu" Width="492.324">
+      mc:Ignorable="d"
+      Title="MainMenu" Width="707.324" Height="668">
 
-    <Grid>
-        <Frame x:Name="Main" Margin="0,0,0,0" Content="" NavigationUIVisibility="Hidden" Background="White"/>
-        <Rectangle Fill="#FF9E9C97" HorizontalAlignment="Left" Height="26" Margin="0,45,0,0" Stroke="#FF9E9C97" VerticalAlignment="Top" Width="492"/>
-        <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,0,0" Stroke="White" VerticalAlignment="Top" Width="472" RadiusX="5" RadiusY="5"/>
-        <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="222,45,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold"/>
-        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="45" Stroke="#FFF39E08" VerticalAlignment="Top" Width="492"/>
-        <Label x:Name="label" Content="Kinjo Menu" HorizontalAlignment="Left" Margin="222,9,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.539,0.579" Width="73" FontFamily="Yu Gothic UI" FontWeight="Bold" Height="31"/>
+    <Grid Margin="0,0,0,0" Height="668" VerticalAlignment="Top" Background="White">
 
-        <Button x:Name="button1" Content="Sushi" HorizontalAlignment="Left" Margin="208,97,0,0" VerticalAlignment="Top" Width="89" Height="36" BorderBrush="#FFF39E08" Background="#FFF9F9F9" Click="goToSushi" />
-        <Button x:Name="appetizer" Content="Appetizer" HorizontalAlignment="Left" Margin="58,97,0,0" VerticalAlignment="Top" Width="86" Height="39" BorderBrush="#FFF39E08" Background="White" Click="goToAppetizer"/>
-        <Button x:Name="button1_Copy" Content="Sashimi" HorizontalAlignment="Left" Margin="366,97,0,0" VerticalAlignment="Top" Width="89" Height="36" BorderBrush="#FFF39E08" Background="White" Click="goToSashimi" />
-        <Button x:Name="button1_Copy1" Content="Maki" HorizontalAlignment="Left" Margin="58,161,0,0" VerticalAlignment="Top" Width="89" Height="36" BorderBrush="#FFF39E08" Background="White" Click="goToMaki" />
-        <Button x:Name="button1_Copy2" Content="Special Maki" HorizontalAlignment="Left" Margin="208,163,0,0" VerticalAlignment="Top" Width="89" Height="36" BorderBrush="#FFF39E08" Background="White" />
-        <Button x:Name="button1_Copy3" Content="Tempura" HorizontalAlignment="Left" Margin="366,161,0,0" VerticalAlignment="Top" Width="89" Height="36" BorderBrush="#FFF39E08" Background="White" />
-        <Button x:Name="button1_Copy4" Content="Party Platters" HorizontalAlignment="Left" Margin="208,222,0,0" VerticalAlignment="Top" Width="89" Height="36" BorderBrush="#FFF39E08" Background="White" />
-        <Button Content="Yakiniku" HorizontalAlignment="Left" Margin="58,224,0,0" VerticalAlignment="Top" Width="89" Height="36" BorderBrush="#FFF39E08" Background="White"/>
-        <Button x:Name="button1_Copy5" Content="Side Sauces" HorizontalAlignment="Left" Margin="366,224,0,0" VerticalAlignment="Top" Width="89" Height="36" BorderBrush="#FFF39E08" Background="White" />
-        <Button x:Name="button1_Copy6" Content="Drinks" HorizontalAlignment="Left" Margin="58,286,0,0" VerticalAlignment="Top" Width="89" Height="36" BorderBrush="#FFF39E08" Background="White" />
-        <Button x:Name="button2" Content="Cart" HorizontalAlignment="Left" Margin="437,12,0,0" VerticalAlignment="Top" Width="38" BorderBrush="#FFFBFBFB" Background="#FFF39E08" Foreground="White"/>
+        <Rectangle Fill="#FF9E9C97" HorizontalAlignment="Left" Height="26" Margin="0,45,-215,0" Stroke="#FF9E9C97" VerticalAlignment="Top" Width="707"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,-204,0" Stroke="White" VerticalAlignment="Top" Width="686" RadiusX="5" RadiusY="5"/>
+        <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="350,46,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold"/>
+        <Rectangle Fill="#FFF39E08" HorizontalAlignment="Left" Height="45" Stroke="#FFF39E08" VerticalAlignment="Top" Width="707" Margin="0,0,-215,0"/>
+        <Label x:Name="label" Content="Kinjo Menu" HorizontalAlignment="Left" Margin="318,9,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.539,0.579" Width="104" FontFamily="Yu Gothic UI" FontWeight="Bold" Height="31" Foreground="White" FontSize="16"/>
+
+        <Image x:Name="image7" HorizontalAlignment="Left" Height="85" Margin="52,249,0,0" VerticalAlignment="Top" Width="120" Source="pack://siteoforigin:,,,/Resources/SalmonRoll.jpg" Stretch="Fill"/>
+        <Image x:Name="image8" HorizontalAlignment="Left" Height="85" Margin="535,109,0,0" VerticalAlignment="Top" Width="120" Source="pack://siteoforigin:,,,/Resources/SalmonSashimi.jpg"/>
+        <Image x:Name="image13" HorizontalAlignment="Left" Height="85" Margin="305,108,0,0" VerticalAlignment="Top" Width="120" Source="pack://siteoforigin:,,,/Resources/TunaSushi.jpg"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="85" Margin="52,568,0,0" VerticalAlignment="Top" Width="120" Source="pack://siteoforigin:,,,/Resources/CannedSoftDrinks.jpg"/>
+        <Image x:Name="image2" HorizontalAlignment="Left" Height="85" Margin="546,421,0,0" VerticalAlignment="Top" Width="120" Source="pack://siteoforigin:,,,/Resources/TeriyakiSauce.jpg"/>
+        <Image x:Name="image3" HorizontalAlignment="Left" Height="85" Margin="318,421,0,0" VerticalAlignment="Top" Width="120" Source="pack://siteoforigin:,,,/Resources/SushiAndSashimiPlatter.jpg"/>
+        <Image x:Name="image4" HorizontalAlignment="Left" Height="85" Margin="52,421,0,0" VerticalAlignment="Top" Width="120" Source="pack://siteoforigin:,,,/Resources/TeriyakiBeef.jpg" Stretch="Fill"/>
+        <Image x:Name="image5" HorizontalAlignment="Left" Height="85" Margin="538,241,0,0" VerticalAlignment="Top" Width="120" Source="pack://siteoforigin:,,,/Resources/YamTempura.JPG" Stretch="Fill"/>
+        <Image x:Name="image6" Height="85" Margin="308,249,0,0" VerticalAlignment="Top" Source="pack://siteoforigin:,,,/Resources/MangoRoll.jpg" HorizontalAlignment="Left" Width="117"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="86" Margin="52,106,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.85,-0.56" Source="pack://siteoforigin:,,,/Resources/Edamame.jpg" Stretch="UniformToFill"/>
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="305,108,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToSushi" FontSize="16" FontWeight="Bold" Foreground="#FFF39E08" BorderThickness="2" />
+        <Button x:Name="appetizer" Content="" HorizontalAlignment="Left" Margin="52,106,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToAppetizer" FontWeight="Bold" BorderThickness="2" RenderTransformOrigin="0.5,0.5" Foreground="#FFF39E08" FontSize="16"/>
+        <Button x:Name="button1_Copy" Content="Sashimi" HorizontalAlignment="Left" Margin="535,108,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToSashimi" Foreground="{x:Null}" FontWeight="Bold" FontSize="16" BorderThickness="2" />
+        <Button x:Name="button1_Copy1" Content="Maki" HorizontalAlignment="Left" Margin="52,248,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToMaki" FontSize="16" FontWeight="Bold" Foreground="{x:Null}" BorderThickness="2" />
+        <Button x:Name="button1_Copy2" Content="Special Maki" HorizontalAlignment="Left" Margin="307,245,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToSpecialMaki" FontSize="16" FontWeight="Bold" Foreground="{x:Null}" BorderThickness="2" />
+        <Button x:Name="button1_Copy3" Content="Tempura" HorizontalAlignment="Left" Margin="537,240,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToTempura" Foreground="{x:Null}" FontSize="16" FontWeight="Bold" BorderThickness="2" />
+        <Button x:Name="button1_Copy4" Content="Party Platters" HorizontalAlignment="Left" Margin="318,418,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToPartyPlatter" Foreground="{x:Null}" FontSize="16" FontWeight="Bold" BorderThickness="2" />
+        <Button Content="Yakiniku" HorizontalAlignment="Left" Margin="52,420,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToYakiniku" Foreground="{x:Null}" FontSize="16" FontWeight="Bold" BorderThickness="2"/>
+        <Button x:Name="button1_Copy5" Content="Side Sauces" HorizontalAlignment="Left" Margin="546,418,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToSauces" Foreground="{x:Null}" BorderThickness="2,2,2,0" />
+        <Button x:Name="button1_Copy6" Content="Drinks" HorizontalAlignment="Left" Margin="52,572,0,0" VerticalAlignment="Top" Width="120" Height="86" BorderBrush="#FFF39E08" Background="{x:Null}" Click="goToDrinks" Foreground="{x:Null}" RenderTransformOrigin="0.592,2.093" BorderThickness="2" />
+        <Button x:Name="button2" Content="Cart" HorizontalAlignment="Left" Margin="645,11,-191,0" VerticalAlignment="Top" Width="38" BorderBrush="#FFFBFBFB" Background="#FFF39E08" Foreground="White" Click="goToCart" BorderThickness="2" FontSize="14" FontWeight="SemiBold"/>
+        <Label x:Name="label2" Content="Appetizer" HorizontalAlignment="Left" Margin="70,80,0,0" VerticalAlignment="Top" Width="82" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="label2_Copy" Content="Sushi" HorizontalAlignment="Left" Margin="349,82,0,0" VerticalAlignment="Top" Width="54" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="label2_Copy1" Content="Sashimi" HorizontalAlignment="Left" Margin="561,80,0,0" VerticalAlignment="Top" Width="60" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="label2_Copy2" Content="Maki" HorizontalAlignment="Left" Margin="89,221,0,0" VerticalAlignment="Top" Width="45" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="label2_Copy3" Content="Special Maki" HorizontalAlignment="Left" Margin="321,217,0,0" VerticalAlignment="Top" Width="98" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="label2_Copy4" Content="Tempura" HorizontalAlignment="Left" Margin="561,213,0,0" VerticalAlignment="Top" Width="82" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="label2_Copy5" Content="Yakiniku" HorizontalAlignment="Left" Margin="74,384,0,0" VerticalAlignment="Top" Width="82" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="label2_Copy6" Content="Party Platter" HorizontalAlignment="Left" Margin="326,386,0,0" VerticalAlignment="Top" Width="98" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="label2_Copy7" Content="Side Sauces" HorizontalAlignment="Left" Margin="558,388,0,0" VerticalAlignment="Top" Width="99" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="label2_Copy8" Content="Drinks" HorizontalAlignment="Left" Margin="81,545,0,0" VerticalAlignment="Top" Width="82" FontWeight="Bold" FontSize="14"/>
     </Grid>
 </Page>

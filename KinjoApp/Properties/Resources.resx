@@ -121,14 +121,38 @@
   <data name="AlbertaSoyCone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AlbertaSoyCone.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AsparagusTempura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AsparagusTempura.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AsparagusTempura1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AsparagusTempura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssortedVegetableTempura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AssortedVegetableTempura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AvocadoRoll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AvocadoRoll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvocadoTempura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AvocadoTempura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BottleWater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BottleWater.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BroccoliTempura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BroccoliTempura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cancel_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cancel-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CannedSoftDrinks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CannedSoftDrinks.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Check" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChickenYakitori" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChickenYakitori.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CucumberRoll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CucumberRoll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,14 +163,26 @@
   <data name="DynamiteRoll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DynamiteRoll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edamame5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edamame5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Edamame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edamame.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GianPlatter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GianPlatter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenTea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenTea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GyozaSauce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GyozaSauce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HamachiSashimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HamachiSashimi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HappyFace" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HappyFace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HotPlatter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HotPlatter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="KinjoRoll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KinjoRoll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -156,6 +192,9 @@
   </data>
   <data name="LobsterSoyCone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LobsterSoyCone.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagicSteak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MagicSteak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MaleDragonRoll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MaleDragonRoll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,6 +229,12 @@
   <data name="SalmonSushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SalmonSushi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Sapporo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapporo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SauteedLongBean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SauteedLongBean.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ScallopSashimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ScallopSashimi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -205,6 +250,12 @@
   <data name="ShrimpSushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ShrimpSushi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ShrimpTempura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ShrimpTempura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpicyChicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpicyChicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SpicyCrunchRoll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SpicyCrunchRoll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -213,6 +264,30 @@
   </data>
   <data name="SpiderRoll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SpiderRoll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SteakSauce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SteakSauce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SushiAndHotFoodPlatter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SushiAndHotFoodPlatter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SushiAndSashimiPlatter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SushiAndSashimiPlatter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SushiPlatter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SushiPlatter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TempuraSauce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TempuraSauce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeriyakiBeef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeriyakiBeef.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeriyakiChicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeriyakiChicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeriyakiSauce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeriyakiSauce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TunaSashimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TunaSashimi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,10 +298,19 @@
   <data name="UnagiSashimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UnagiSashimi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="UnagiSauce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UnagiSauce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="VolcanoRoll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VolcanoRoll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="VolcanoSauce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VolcanoSauce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="YamRoll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\YamRoll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YamTempura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YamTempura.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
