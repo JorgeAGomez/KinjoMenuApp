@@ -2,34 +2,80 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Effects;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace KinjoApp
 {
      
     public partial class ShoppingCart : Page
-    {       
-
+    {
+        private DispatcherTimer dispatcherTimer;
+        BlurEffect blur;
         public ShoppingCart()
         {
             InitializeComponent();
+            displayFoodItems();
+            widgetGrid.Visibility = Visibility.Hidden;
+            widgetCheckGrid.Visibility = Visibility.Hidden;
+            dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 2);
+
+        }
+
+        private void DeleteBtn_Click(object sender, RoutedEventArgs e)
+        {
+            //delete item here
+        }
+
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            //delete a food item
+            if (listView.SelectedIndex == -1)
+            {
+                MessageBox.Show("An item needs to be selected first");
+            }
+            else
+            {
+               listView.Items.RemoveAt(listView.SelectedIndex);
+            }
+              
+        }
+
+        private void backToMenu(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new MainMenu());
+        }
+
+        private void displayFoodItems()
+        {
             string[] list1 = new string[4] { "pack://siteoforigin:,,,/Resources/Edamame.jpg", "Edamame", "Soft soybeans served in the pod, which are steamed and lightly tossed in sea salt.", "$5.10" };
             string[] list2 = new string[4] { "pack://siteoforigin:,,,/Resources/SearedTunaSushi.jpg", "Seared Tuna Sushi (2 pcs)", "Lightly seared tuna, sushi rice, and spicy mayo topped with green onions.", "$4.10" };
+            string[] list3 = new string[4] { "pack://siteoforigin:,,,/Resources/BroccoliTempura.jpg", "Broccoli Tempura (4 pcs)", "Battered broccoli, deep friend to a crispy texture, and served with tempura sauce", "$4.20" };
+            string[] list4 = new string[4] { "pack://siteoforigin:,,,/Resources/GreenTea.jpg", "Green Tea", "Hot green tea", "$4.00" };
 
             FoodItem.foodItems = new List<string[]>();
-            FoodItem.foodItems.Add(list1);
-            FoodItem.foodItems.Add(list2);
-            
-            foreach (string[] item in FoodItem.foodItems) {
+           // FoodItem.foodItems.Add(list1);
+           // FoodItem.foodItems.Add(list2);
+            //FoodItem.foodItems.Add(list3);
+            //FoodItem.foodItems.Add(list4);
+
+            foreach (string[] item in FoodItem.foodItems)
+            {
                 ListViewItem appetizerItem = new ListViewItem();
                 appetizerItem.Background = Brushes.White;
                 appetizerItem.BorderThickness = new Thickness(1, 1, 1, 1);
@@ -107,7 +153,6 @@ namespace KinjoApp
                 appetizerStack2.Children.Add(title);
                 appetizerStack2.Children.Add(detail);
 
-
                 appetizerStack.Children.Add(appetizerImage);
                 appetizerStack.Children.Add(appetizerStack2);
                 appetizerStack.Children.Add(price);
@@ -115,28 +160,42 @@ namespace KinjoApp
 
                 appetizerItem.Content = appetizerStack;
                 listView.Items.Add(appetizerItem);
-
-
             }
-
         }
 
-        private void DeleteBtn_Click(object sender, RoutedEventArgs e)
+        private void placeOrderBtn(object sender, RoutedEventArgs e)
         {
-            //delete item here
-
-
+            widgetCheckGrid.Visibility = Visibility.Visible;
+            blur = new BlurEffect();
+            blur.Radius = 20;
+            listView.Effect = blur;
+            
         }
 
-
-        private void button2_Click(object sender, RoutedEventArgs e)
+        private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-
-        }
-
-        private void backToMenu(object sender, RoutedEventArgs e)
-        {
+            widgetGrid.Visibility = System.Windows.Visibility.Collapsed;
+            listView.Effect = null;
             this.NavigationService.Navigate(new MainMenu());
+            //Disable the timer
+            dispatcherTimer.IsEnabled = false;
+        }
+
+        private void button2_Click_1(object sender, RoutedEventArgs e)
+        {
+            //OK Button
+            widgetCheckGrid.Visibility = Visibility.Hidden;
+            widgetGrid.Visibility = Visibility.Visible;
+            blur = new BlurEffect();
+            blur.Radius = 20;
+            listView.Effect = blur;
+            dispatcherTimer.Start();
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            widgetCheckGrid.Visibility = Visibility.Hidden;
+            listView.Effect = null;
         }
     }
 }

@@ -14,12 +14,12 @@
         <Rectangle Fill="White" HorizontalAlignment="Left" Height="15" Margin="10,51,0,0" Stroke="White" VerticalAlignment="Top" Width="687" RadiusX="5" RadiusY="5"/>
         <Label x:Name="label1" Content="search" HorizontalAlignment="Left" Margin="326,45,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic UI" FontSize="11" FontWeight="Bold"/>
 
-        <ListView Margin="0,71,0,0">
+        <ListView x:Name="listView" Margin="0,71,0,0" MouseDoubleClick="doubleClick" SelectionChanged="selectionChanged">
             <ListViewItem Background="White" BorderThickness="1" BorderBrush="#FF959292" Height="72" >
                 <StackPanel Orientation="Horizontal" Width="692">
                     <Image x:Name="image" Height="58" Width="65" SnapsToDevicePixels="True" Source="pack://siteoforigin:,,,/Resources/DynamiteRoll.jpg"/>
                     <StackPanel Orientation="Vertical" Width="584" Height="54">
-                        <TextBlock Height="25" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Dynamite Roll (4 pcs)" FontWeight="Bold"/>
+                        <Label x:Name="index0" Height="30" FontFamily="Yu Gothic UI" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold" FontSize="16" Content="Dynamite Roll (4 pcs)"/>
                         <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="S"/><Run Text="hrimp tempura, masago, cucumber, avocado, and may"/><Run Text="o."/></TextBlock>
                     </StackPanel>
 
@@ -31,7 +31,7 @@
                 <StackPanel Orientation="Horizontal" Width="691">
                     <Image x:Name="image2"  Height="58" Width="65" SnapsToDevicePixels="True" Stretch="Fill" Source="pack://siteoforigin:,,,/Resources/VolcanoRoll.jpg"/>
                     <StackPanel Orientation="Vertical" Width="580">
-                        <TextBlock Height="20" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Volcano Roll (4 pcs) " FontWeight="Bold"/>
+                        <Label x:Name="index1" Height="30" FontFamily="Yu Gothic UI" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold" FontSize="16" Content="Volcano Roll (4 pcs)"/>
                         <TextBlock Height="24" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="554" Foreground="#FF878787"><Run Text="C"/><Run Text="alamari tempura, raw tuna, and lettuce topped with sesame seeds and spicy mayo."/></TextBlock>
                     </StackPanel>
 
@@ -43,7 +43,7 @@
                 <StackPanel Orientation="Horizontal" Width="689">
                     <Image x:Name="image3"  Height="58" Width="65" SnapsToDevicePixels="True" Source="pack://siteoforigin:,,,/Resources/AvocadoRoll.jpg"/>
                     <StackPanel Orientation="Vertical" Width="580">
-                        <TextBlock Height="26" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Avocado Roll (6 pcs)" FontWeight="Bold"/>
+                        <Label x:Name="index2" Height="30" FontFamily="Yu Gothic UI" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold" FontSize="16" Content="Avocado Roll (6 pcs)"/>
                         <TextBlock Height="22" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="543" Foreground="#FF878787" Text="Sushi rice, avocado, and sesame seeds wrapped in nori."/>
                     </StackPanel>
 
@@ -55,7 +55,7 @@
                 <StackPanel Orientation="Horizontal" Width="690">
                     <Image x:Name="image4" Height="58" Width="65" SnapsToDevicePixels="True" Stretch="Fill" Source="pack://siteoforigin:,,,/Resources/CucumberRoll.jpg"/>
                     <StackPanel Orientation="Vertical" Width="579">
-                        <TextBlock Height="21" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Cucumber Roll (6 pcs)" FontWeight="Bold"/>
+                        <Label x:Name="index3" Height="30" FontFamily="Yu Gothic UI" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold" FontSize="16" Content="Cucumber Roll (6 pcs)"/>
                         <TextBlock Height="28" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="528" Foreground="#FF878787" Text="Sushi rice, cucumber, and sesame seeds wrapped in nori."/>
                     </StackPanel>
 
@@ -67,7 +67,7 @@
                 <StackPanel Orientation="Horizontal" Width="691">
                     <Image x:Name="image5" Height="58" Width="65" SnapsToDevicePixels="True" Source="pack://siteoforigin:,,,/Resources/YamRoll.jpg"/>
                     <StackPanel Orientation="Vertical" Width="578">
-                        <TextBlock Height="23" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" Text="Yam Roll (4 pcs)" FontWeight="Bold"/>
+                        <Label x:Name="index4" Height="30" FontFamily="Yu Gothic UI" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold" FontSize="16" Content="Yam Roll (4 pcs)"/>
                         <TextBlock Height="27" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787"><Run Text="Y"/><Run Text="am tempura, avocado, and mayo topped with sesame seed"/><Run Text="s"/></TextBlock>
                     </StackPanel>
 
@@ -79,7 +79,7 @@
                 <StackPanel Orientation="Horizontal" Width="691">
                     <Image x:Name="image6" Height="58" Width="65" SnapsToDevicePixels="True" Source="pack://siteoforigin:,,,/Resources/SalmonRoll.jpg"/>
                     <StackPanel Orientation="Vertical" Width="570">
-                        <TextBlock Height="26" FontFamily="Yu Gothic UI" FontSize="16" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold"><Run Text="Salmon Roll (6 pcs)"/><LineBreak/><Run/></TextBlock>
+                        <Label x:Name="index5" Height="30" FontFamily="Yu Gothic UI" Margin="5,0,10,5" RenderTransformOrigin="0.497,0.422" FontWeight="Bold" FontSize="16" Content="Salmon Roll (6 pcs)"/>
                         <TextBlock Height="28" FontFamily="Yu Gothic UI" FontSize="14" Margin="5,0,0,5" HorizontalAlignment="Left" Width="386" Foreground="#FF878787" Text="Sushi rice and raw salmon wrapped in nori."/>
                     </StackPanel>
 
@@ -90,5 +90,24 @@
 
         </ListView>
         <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="25,13,0,0" VerticalAlignment="Top" Width="46" Background="#FFF39E08" BorderBrush="White" Foreground="White" Click="goToMenu" BorderThickness="2" FontWeight="Bold"/>
+        <Grid x:Name="widgetGrid" HorizontalAlignment="Left" Height="197" Margin="163,210,0,0" VerticalAlignment="Top" Width="336" Background="#FFACACAC">
+            <Button x:Name="doneBtn" Content="Done" HorizontalAlignment="Left" Margin="133,149,0,0" VerticalAlignment="Top" Width="79" BorderBrush="#FFF39E08" BorderThickness="2" Foreground="White" FontFamily="Yu Gothic UI" FontSize="14" Background="#FFF39E08" Click="doneBtn_Click"/>
+            <Label x:Name="itemNumber" Content="1" HorizontalContentAlignment="Center" Margin="133,94,124,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Yu Gothic UI" Width="79" Height="36" FontSize="20"/>
+            <Button x:Name="addBtn" HorizontalAlignment="Left" Margin="214,99,0,0" VerticalAlignment="Top" Width="42" FontWeight="Bold" FontSize="16" Height="33" FontFamily="Yu Gothic UI" Click="addBtn_Click" Background="Gainsboro" BorderBrush="#FFF39E08" BorderThickness="2">
+                <Image x:Name="image7" Height="29" Width="41" Source="pack://siteoforigin:,,,/Resources/Plus Math Filled-50.png"/>
+            </Button>
+            <Button x:Name="substractBtn" HorizontalAlignment="Left" Margin="87,99,0,0" VerticalAlignment="Top" Width="42" FontWeight="Bold" FontSize="16" Height="33" FontFamily="Yu Gothic UI" Click="substractBtn_Click" BorderBrush="#FFF39E08" BorderThickness="2">
+                <Image x:Name="image8" Height="38" Width="27" Source="pack://siteoforigin:,,,/Resources/Minus Math  Filled-50.png"/>
+            </Button>
+            <Button x:Name="cancelBtn" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" Width="38" Height="34" BorderBrush="#FFF39E08" Background="Gainsboro" Click="cancelBtn_Click" BorderThickness="2">
+                <Image x:Name="image1" Height="34" Width="28" Source="pack://siteoforigin:,,,/Resources/Cancel-50.png" OpacityMask="#FF878787"/>
+            </Button>
+            <Label x:Name="nameLabel" Content="Alberta Soy Cone" HorizontalContentAlignment="Center" Margin="10,44,10,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" FontFamily="Yu Gothic UI" Foreground="White"/>
+
+        </Grid>
+        <Grid x:Name="checkMarkGrid" HorizontalAlignment="Left" Height="123" Margin="272,105,0,0" VerticalAlignment="Top" Width="154" Background="#FFACACAC">
+            <Grid HorizontalAlignment="Left" Height="52" Margin="56,37,0,0" VerticalAlignment="Top" Width="41" Background="White"/>
+            <Image x:Name="image10" HorizontalAlignment="Left" Height="100" Margin="27,10,0,0" VerticalAlignment="Top" Width="100" Source="pack://siteoforigin:,,,/Resources/CheckMark.png"/>
+        </Grid>
     </Grid>
 </Page>

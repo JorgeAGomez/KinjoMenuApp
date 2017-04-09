@@ -103,3 +103,9 @@ C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\bin
 C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\bin\Debug\Resources\SushiAndSashimiPlatter.jpg
 C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\obj\Debug\ShoppingCart.g.cs
 C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\obj\Debug\ShoppingCart.baml
+C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\bin\Debug\Resources\Plus Math Filled-50.png
+C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\bin\Debug\Resources\Minus Math  Filled-50.png
+C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\bin\Debug\Resources\CheckMark.png
+C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\bin\Debug\Resources\LOL Filled-200.png
+C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\bin\Debug\Resources\Ok-200.png
+C:\Users\JorgeAGomez\Documents\Visual Studio 2015\Projects\KinjoApp\KinjoApp\bin\Debug\Resources\Cancel-200.png
